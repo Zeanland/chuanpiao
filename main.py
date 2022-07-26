@@ -24,7 +24,7 @@ sct_token = ""  # Sendkey
 startSite = "SK"  # 始发站点
 endSite = "HKA"  # 目标站点
 startDate = "2022-09-01"  # 船票搜索日期
-endDate = "2022-10-30"
+endDate = "2022-10-01"
 show_available_only = True  # 只显示有票的日期
 # ==================================
 
@@ -45,7 +45,7 @@ if __name__ == '__main__':
         enable_gh_action = True  # 检测是否在GitHub Action中运行
         period = sys.argv[2].lstrip("--period=")
         if not period:
-            period = 90
+            period = 60
         else:
             period = str(period)    # Convert str to int
 
