@@ -16,7 +16,7 @@ on:
       period:
         description: 'Search Period'
         required: true
-        default: '90'
+        default: '60'
 
 jobs:
   build:
